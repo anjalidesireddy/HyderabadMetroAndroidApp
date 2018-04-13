@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_aboutus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="#ffffff"
+
+
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#ffffff">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lgocompany"  />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Plot.No.31, 1st Floor, Leeven Heights, Jubli Enclave, Madhapur, Cyberabad,, Ranga Reddy,, Hyderabad, Telangana 500081"
+            android:textColor="#000000"
+            android:layout_marginTop="0dp"
+            android:layout_margin="2dp"
+            android:gravity="center"/>
+
+
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="#00a14b"
+            android:layout_margin="6dp"
+            android:text="http://grepthorsoftware.com" />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:layout_margin="6dp"
+            android:text="@string/app_name" />
+
+
+        <TextView
+            android:id="@+id/tvVersion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:text="Version"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/li1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:visibility="gone"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:tint="#ffffff"
+            android:src="@drawable/phone_call"/>
+
+
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5sp"
+            android:layout_marginTop="5sp"
+            android:background="#ffffff"
+            />
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/customer"
+            android:layout_weight="1"
+
+
+            />
+        <View
+            android:id="@+id/view2"
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="5sp"
+            android:background="#ffffff"
+            />
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/logo"
+            />
+        <View
+            android:id="@+id/view3"
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="5sp"
+            android:background="#ffffff"
+            />
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+
+            android:layout_weight="1"
+
+            android:src="@drawable/video"
+            />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="5sp"
+            android:background="#ffffff"
+
+            />
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+
+            android:layout_weight="1"
+
+            android:src="@drawable/newspaper"/>
+
+    </LinearLayout>
+    </RelativeLayout>

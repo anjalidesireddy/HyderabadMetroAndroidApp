@@ -1,0 +1,19 @@
+#Internal package file, do not edit.
+#Tue Feb 06 16:51:07 IST 2018
+1.base=D\:\\aaaaaaaa\\New folder (2)\\HyderabadMetro11.1.2018\\app\\build\\intermediates\\transforms\\dex\\release\\0
+2.path=historyhmr.html
+0.baseType=DIRECTORY
+3.baseType=DIRECTORY
+2.base=D\:\\aaaaaaaa\\New folder (2)\\HyderabadMetro11.1.2018\\app\\build\\intermediates\\assets\\release
+3.set=ASSET
+2.set=ASSET
+1.baseType=DIRECTORY
+3.path=aboutmrh.html
+count=4
+1.set=DEX
+0.path=termsandconditions.html
+3.base=D\:\\aaaaaaaa\\New folder (2)\\HyderabadMetro11.1.2018\\app\\build\\intermediates\\assets\\release
+0.set=ASSET
+0.base=D\:\\aaaaaaaa\\New folder (2)\\HyderabadMetro11.1.2018\\app\\build\\intermediates\\assets\\release
+2.baseType=DIRECTORY
+1.path=classes.dex

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0049b8</color>
+    <color name="colorPrimaryDark">#003ba8</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="skyblue">#4096ff</color>
+    <color name="card">#b0b0b0</color>
+    <color name="cardboard">#e62730</color>
+    <color name="cardsky">#0fb304</color>
+
+    <color name="metroblue">#005082</color>
+    <color name="metrogreen">#00a357</color>
+    <color name="metrored">#d92c23</color>
+    <color name="metrosky">#027cb0</color>
+
+    <color name="colorBackground">#eeeeee</color>
+</resources>

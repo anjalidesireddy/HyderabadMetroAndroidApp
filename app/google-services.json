@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "209915630152",
+    "firebase_url": "https://hyderabadmetro1112018.firebaseio.com",
+    "project_id": "hyderabadmetro1112018",
+    "storage_bucket": "hyderabadmetro1112018.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209915630152:android:ed07717fea6ee295",
+        "android_client_info": {
+          "package_name": "com.grepthor.hyderabadmetro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209915630152-fsek3ur66j1i3k8fmf9mvmskb9kf55uc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.grepthor.hyderabadmetro",
+            "certificate_hash": "26f4b2dbf234b7a0c13b7186f43f2e7de6538c2f"
+          }
+        },
+        {
+          "client_id": "209915630152-f2gkiupa6hadcde81tnhvvvqdm11b8b0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAvGsPBoxShK_Lqki8DdpHRS54zcm5D04"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209915630152-f2gkiupa6hadcde81tnhvvvqdm11b8b0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

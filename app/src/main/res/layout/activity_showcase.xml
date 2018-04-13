@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <RelativeLayout
+            android:id="@+id/rlSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+
+            android:gravity="center"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/tvFirst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No account yet ? "
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:visibility="gone"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/tvSecond"
+                android:layout_toRightOf="@id/tvFirst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone"
+                android:text="Sign Up"
+                android:layout_marginLeft="3dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/colorPrimary"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rlGetStarted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/rlSignup"
+            android:layout_marginTop="1dp"
+            android:background="@color/colorPrimaryDark"
+            android:padding="15dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Start"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_above="@id/rlGetStarted"
+            android:gravity="center"
+            android:layout_height="fill_parent">
+            <LinearLayout android:id="@+id/pager" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp">
+                <ImageView android:id="@+id/icnFirst" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/ic_action_red" />
+                <ImageView android:id="@+id/icnSecond" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="5dp" android:src="@drawable/ic_action_gray" />
+                <ImageView android:id="@+id/icnThird" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="5dp" android:src="@drawable/ic_action_gray" />
+                <ImageView android:id="@+id/icnForth" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="5dp" android:src="@drawable/ic_action_gray" />
+                <ImageView android:id="@+id/icnFifth" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="5dp" android:src="@drawable/ic_action_gray" />
+                <!--  <ImageView android:id="@+id/icnSixth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:src="@drawable/gray" />  -->
+            </LinearLayout>
+            <android.support.v4.view.ViewPager android:id="@+id/landingPager" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/pager" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

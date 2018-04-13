@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\aaaaaaaa\\New folder (2)\\HyderabadMetro11.1.2018\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Grepthor_4\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\683c488e3d9f976f0f91dca4157aedbe\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

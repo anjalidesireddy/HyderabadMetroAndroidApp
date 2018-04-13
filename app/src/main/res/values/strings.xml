@@ -1,0 +1,310 @@
+<resources>
+    <string name="app_name">HYD Metro</string>
+    <string name="title_activity_dash_bord">DashBordActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="appId">ca-app-pub-4833279483008875~4431551919</string>
+
+    <string name="appunitid">ca-app-pub-4833279483008875/6790778483</string>
+    <string name="interstitial_full_screen">ca-app-pub-4833279483008875/7157787601</string>
+
+    <string-array name="police_staation_names">
+        <item>CENTRAL ZONE</item>
+        <item>ACP ABIDS</item>
+        <item>ACP CHIKKADPALLY</item>
+        <item>ACP SAIFABAD</item>
+        <item>PS Abids</item>
+        <item>PS Narayanguda</item>
+        <item>PS Begum Bazar</item>
+        <item>PS Gandhinagar</item>
+        <item>Musheerabad</item>
+        <item>Chikkadpally</item>
+        <item>Nampally</item>
+        <item>Ramgopalpet</item>
+        <item>Saifabad</item>
+
+        <item>EAST ZONE</item>
+        <item>ACP SULTHANBAZAR</item>
+        <item>ACP KACHIGUDA</item>
+        <item>ACP MALAKPET</item>
+        <item>Sultanbazar</item>
+        <item>Chaderghat	</item>
+        <item>Afzalgunj</item>
+        <item>Kachiguda	</item>
+        <item>Nallakunta</item>
+        <item>OSMANIA UNIVERSITY</item>
+        <item>PS Malakpet</item>
+        <item>Saidabad </item>
+        <item>Amberpet</item>
+
+        <item>WEST ZONE</item>
+        <item>ACP BAJNARAHILLS</item>
+        <item>ACP PUNJAGUTTA</item>
+        <item>ACP ASIF NAGAR </item>
+        <item>Banjara Hills</item>
+        <item>Jubilee Hills</item>
+        <item>Punjagutta</item>
+        <item>SR NAGAR</item>
+        <item>Asifnagar</item>
+        <item>Humayunnagar</item>
+        <item>Lunger House</item>
+        <item>Golconda</item>
+        <item>Tappachabutra</item>
+        <item>ACP GOSHAMAHAL</item>
+        <item>Shahinayathgunj</item>
+        <item>Habeebnagar</item>
+        <item>Kulsumpura </item>
+        <item>Mangalhat</item>
+
+        <item>NORTH ZONE</item>
+
+        <item>SOUTH ZONE</item>
+
+    </string-array>
+
+    <string-array name="police_staation_numbers">
+        <item>040 2785 2448</item>
+        <item>040 27852499</item>
+        <item>040 27853507</item>
+        <item>040 27852299</item>
+        <item>040 27852449</item>
+        <item>040 27852579</item>
+        <item>040 27854774</item>
+        <item>040 27853585</item>
+        <item>040 27853581</item>
+        <item>040 27853578</item>
+        <item>040 27852445</item>
+        <item>040 27853595</item>
+        <item>040 27852488</item>
+
+        <item>040 27853630</item>
+        <item>040-27854712</item>
+        <item>040-27854891</item>
+        <item>040-27854713</item>
+        <item>040 27854770</item>
+        <item>040 27854782</item>
+        <item>040 27854771</item>
+        <item>040 27854977</item>
+        <item>040 27853580</item>
+        <item>040 27853570</item>
+        <item>040 27854765</item>
+        <item>040 27854785</item>
+        <item>040 27853575</item>
+
+        <item>040 2785 2255</item>
+        <item>040-27852250</item>
+        <item>040-27852245</item>
+        <item>040-27852499</item>
+        <item>040 27852495</item>
+        <item>040 27852447</item>
+        <item> 040 27852019</item>
+        <item>040 27852386</item>
+        <item>040 27852407</item>
+        <item>040 27852443</item>
+        <item>040 27852480</item>
+        <item>040 27852481</item>
+        <item>040 27854775</item>
+        <item>040-27854710</item>
+        <item>040 27854777</item>
+        <item>040 27852014</item>
+        <item>040 27854766</item>
+        <item>040 27854776</item>
+
+        <item>040 2785 3541</item>
+
+
+        <item>040 2785 4760 </item>
+
+    </string-array>
+
+    <string-array name="fire_staation_names">
+        <item>GOWLIGUDA FIRE STATION</item>
+        <item>FIRE CONROL ROOM TANK BUND</item>
+        <item>Jeedimetla Fire Station</item>
+        <item>Fire Station Malakpet</item>
+        <item>Langar Houz Police Station</item>
+        <item>Gowli Guda Fire Station</item>
+        <item>Moghulpura Fire Station</item>
+        <item>Fire Station Patancheru</item>
+        <item>Fire Cool Engineers</item>
+        <item>IICT Fire Station</item>
+        <item>Fire Station Secunderabad</item>
+        <item>Fire Station Sanath Nagar</item>
+        <item>Fire Station Madhapur</item>
+        <item>Fire Station Film Nagar</item>
+        <item>Fire Station Malkajigiri</item>
+        <item>Fire Station Musheerabad</item>
+        <item>Fire Station Patancheru</item>
+        <item>Fire Station Moula Ali</item>
+        <item>Ap Fire Services</item>
+        <item>Fire Station Mogulpura</item>
+        <item>Baradari Fire Station</item>
+        <item>Nctt Centre For Fire/ Safety Engineering(Ncfse)</item>
+        <item>Hyderabad Engineering Of Fire</item>
+        <item>Reliable Fire Engineers</item>
+        <item>MECH / TECH</item>
+    </string-array>
+
+    <string-array name="fire_staation_numbers">
+        <item>040-23442955</item>
+        <item>040-23442942</item>
+        <item>040 2344 9212</item>
+        <item>040 2344 9213</item>
+        <item>040 2785 2480</item>
+        <item>040 2344 9214</item>
+        <item>040 2344 9226</item>
+        <item>095810 12077</item>
+        <item>040 2460 3310</item>
+        <item>040 2344 9218</item>
+        <item> +(91)-(40)-23449227</item>
+        <item>+(91)-(40)-23442946</item>
+        <item>+(91)-(40)-23442950</item>
+        <item>+(91)-(40)-23442953</item>
+        <item>+(91)-(40)-23449225</item>
+        <item>+(91)-(40)-23449216</item>
+        <item>+(91)-(8455)-242099</item>
+        <item>+(91)-(40)-23449218</item>
+        <item>+(91)-(40)-23442947</item>
+        <item>+(91)-(40)-23449226</item>
+        <item> +(91)-(40)-23449219</item>
+        <item>+(91)-(40)-33798196</item>
+        <item>+(91)-9246273986</item>
+        <item> +(91)-9848810378</item>
+        <item>+(91)-(40)-65145552</item>
+
+    </string-array>
+    <string-array name="ambulance_staation_names">
+        <item>Free Service</item>
+        <item>EMRI</item>
+        <item>Apollo Emergency</item>
+        <item>Care Hospital</item>
+        <item>Genesis</item>
+        <item>Kamineni Hospital</item>
+        <item>Yashoda Hospitals</item>
+        <item>Asian institute of Gastroenterology</item>
+        <item>Cancer Hospital</item>
+        <item>CDR Hospital (Hyderguda)</item>
+        <item>Durgabai Deshmukh Hospital</item>
+        <item>Govt. Chest Hospital</item>
+        <item>Osmania Gen, Hospital</item>
+        <item>ESI, Erragadda</item>
+        <item>ENT, Koti</item>
+        <item>Golconda Hospital</item>
+        <item>Govt. Maternity Hosp. Koti</item>
+        <item>King Koti Hospital</item>
+        <item>Mental Hospital, E' gadda</item>
+        <item>Military Hospital, Sec'bad</item>
+        <item>MNJ Cancer Hospital </item>
+        <item>NIMS, Panjagutta</item>
+        <item>Railway Hospital, Sec'bad</item>
+        <item>SD Eye Hosp.Mehdipatnam</item>
+
+    </string-array>
+
+    <string-array name="ambulance_staation_numbers">
+        <item>	102</item>
+        <item>108</item>
+        <item>1066</item>
+        <item>1061</item>
+        <item>040 23222142</item>
+        <item>040 24022222</item>
+        <item>105910</item>
+        <item>040 23378888 </item>
+        <item>040 23318422</item>
+        <item>040 23221221 </item>
+        <item>040 27617801 </item>
+        <item>040 23814421 </item>
+        <item>040 24600122</item>
+        <item>040 23700531</item>
+        <item>040 24740245</item>
+        <item>040 23513776</item>
+        <item>040 24653647</item>
+        <item>040 24756085</item>
+        <item>040 23813231</item>
+        <item>040 27792580</item>
+        <item>040 23318422</item>
+        <item>040 23396552 </item>
+        <item>040 27001134</item>
+        <item>040 23317274</item>
+
+
+    </string-array>
+    <string name="horizontal_timeline">Horizontal Timeline</string>
+    <string name="vertical_timeline">Vertical Timeline</string>
+    <string name="horizontal_timeline_w_padding">Horizontal Timeline With Line Padding</string>
+    <string name="vertical_timeline_w_padding">Vertical Timeline With Line Padding</string>
+    <string-array name="emergency_staation_names">
+        <item>Ambulance</item>
+        <item>EMRI</item>
+        <item>Child Line</item>
+        <item>Crime Stopper</item>
+        <item>Water Supply Complaints</item>
+        <item>Electricity (APSEB)</item>
+        <item>Tourist Information</item>
+
+        <item>Traffic Helpline</item>
+        <item>Police Control Room</item>
+        <item>Police Exchange</item>
+        <item>Traffic Police</item>
+        <item>Traffic Control Room</item>
+        <item>Meru Cabs</item>
+        <item>Yellow Taxi</item>
+        <item>Dot Cabs</item>
+        <item>Hyderabad International Airport</item>
+        <item>Shankar Mutt Electricity Complaints</item>
+        <item>Charminar Electricity Complaints</item>
+        <item>Greenlands Electricity Complaints</item>
+        <item>Paradise Electricity Complaints</item>
+        <item>Bowenpally Electricity Complaints</item>
+        <item>Rethi Bowli Electricity Complaints</item>
+        <item>Chanchalguda Electricity Complaints</item>
+        <item>Begum Bazar Electricity Complaints</item>
+        <item>Ameerpet/ ICSC</item>
+        <item>Gachibowli/ ICSC</item>
+
+
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="search_city_place">SEARCH CITY/PLACE</string>
+    <string name="search">Search</string>
+    <string name="stadium">Hospital</string>
+    <string name="ATM">Schools</string>
+    <string name="university">university</string>
+    <string name="me">me</string>
+    <string-array name="emergency_staation_numbers">
+        <item>102</item>
+        <item>108</item>
+        <item>1098</item>
+        <item>1090</item>
+        <item>040 23393113</item>
+        <item>1912</item>
+        <item>1363</item>
+        <item>1073</item>
+        <item>	040 23232222</item>
+        <item>040 23230191</item>
+        <item>	040 23234065</item>
+        <item>040 27852482</item>
+        <item>040 44224422</item>
+        <item>	040 44004400</item>
+        <item>040 24242424</item>
+        <item>	040 66764000</item>
+        <item>040-23433259</item>
+        <item>040-23433282</item>
+        <item>040-23431069</item>
+        <item>040-23433353</item>
+        <item>040-23433464</item>
+        <item>040-23431151</item>
+        <item>040-23433281</item>
+        <item>040-23433240</item>
+        <item>040-23431464</item>
+        <item>	040-23433544</item>
+    </string-array>
+    <string name="item_first">First event</string>
+    <string name="item_default">Event %1d</string>
+    <string name="item_last">Last event</string>
+</resources>

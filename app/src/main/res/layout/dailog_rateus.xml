@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99000000">
+
+
+    <LinearLayout
+        android:id="@+id/llUpper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvSponsorTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rate this App?"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#00a14b"/>
+
+
+        <TextView
+            android:id="@+id/tvSponsorDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="If you enjoy using this app, would you mind taking a moment to rate it? It won't take more than a minute. Thank you for your support!"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#ffffff"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end">
+
+            <TextView
+                android:id="@+id/tvLater"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Later"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_weight="1"
+                android:textColor="#00a14b"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/tvRateNow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rate Now"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_weight="1"
+                android:layout_toRightOf="@id/tvLater"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="#00a14b"/>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

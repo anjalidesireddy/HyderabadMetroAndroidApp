@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_action_homen"
+            android:iconTint="@color/colorPrimaryDark"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_action_charminar"
+            android:iconTint="@color/colorPrimaryDark"
+
+            android:title="History" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_action_calender"
+            android:iconTint="@color/colorPrimaryDark"
+
+            android:title="Event" />
+
+        <item
+            android:id="@+id/nav_mission"
+            android:icon="@drawable/ic_action_info"
+            android:title="Metro Information" />
+       <!-- <item
+            android:id="@+id/nav_gallary"
+            android:icon="@drawable/ic_action_notification"
+            android:iconTint="@color/colorPrimaryDark"
+
+            android:title="Notification" />-->
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/ic_action_termsandcond"
+            android:iconTint="@color/colorPrimaryDark"
+
+            android:title="Terms And Condition" />
+
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_action_about"
+            android:iconTint="@color/colorPrimaryDark"
+
+            android:title="AboutUs" />
+
+
+        <item
+            android:id="@+id/nav_founder"
+            android:icon="@drawable/ic_action_rate"
+            android:iconTint="@color/colorPrimaryDark"
+
+            android:title="RateUs" />
+
+
+
+    </group>
+
+
+
+</menu>
